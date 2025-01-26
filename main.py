@@ -20,7 +20,7 @@ font = pygame.font.SysFont("arial", 25)
 
 
 if __name__ == "__main__":
-    agent = Agent(epsilon=0.8)
+    agent = Agent(epsilon=0.5)
     game = SnakeGame(WIDTH, HEIGHT, display, clock, font)
     scores = []
     mean_scores = []
